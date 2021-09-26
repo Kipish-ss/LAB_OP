@@ -10,7 +10,7 @@ else:
     if math.sin(c) == 0:  # Перевірка чи належить введене значення області визначення функції
         print("sin(c) cannot be equal to zero since it is impossible to divide by zero.")
     else:
-        d = float(input("Enter number d: "))  # Введення значення змінної c
+        d = float(input("Enter number d: "))  # Введення значення змінної d
         if d <= 0:  # Перевірка чи належить введене значення області визначення функції
             print("Logarithm of non-positive number does not exist.")
         else:
