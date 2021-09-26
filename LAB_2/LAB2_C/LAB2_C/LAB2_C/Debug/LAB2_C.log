@@ -1,0 +1,4 @@
+﻿  Lab2.c
+C:\Users\ksida\source\repos\LAB2_C\LAB2_C\Lab2.c(28,44): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\ksida\source\repos\LAB2_C\LAB2_C\Lab2.c(28,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LAB2_C.vcxproj -> C:\Users\ksida\source\repos\LAB2_C\Debug\LAB2_C.exe
