@@ -35,11 +35,11 @@ def display_count(word_list, count_list):  # функція для виведе�
             print(f'The string contains "{word}" word {count} times.')
 
 
-def join_words(word_list):  # фукнція для створення рядку із заданого масиву рядків
+def join_words(word_list, sep: str = ' '):  # фукнція для створення рядку із заданого масиву рядків
     text = ''
     for i in range(len(word_list)):
         if i != len(word_list) - 1:
-            text += word_list[i] + ' '
+            text += word_list[i] + sep
         else:
             text += word_list[i]
     return text
